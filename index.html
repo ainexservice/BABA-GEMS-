@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BABA GEMS | Gemstones, Jewellery & Rudraksha</title>
+<meta name="description" content="Explore gemstone jewellery, Navratna, Rudraksha and spiritual collections.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/branding/favicon.png">
+<link rel="apple-touch-icon" href="assets/branding/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="trustbar">
+  <span>✧ Gemstones · Jewellery · Spiritual Collections</span><i></i><span>♧ Shipping confirmed per order</span><i></i><span>◇ Product details confirmed before dispatch</span>
+</div>
+<header class="site-header">
+  <button class="mobile-nav-toggle" id="mobileMenu" aria-label="Open navigation">☰</button>
+  <a class="brand" href="#home" aria-label="BABA GEMS home">
+    <span class="logo-slot"><img data-brand-logo src="assets/branding/logo.png" alt="BABA GEMS emblem"></span>
+    <span class="brand-copy"><strong>BABA GEMS</strong><small>GEMSTONES · JEWELLERY · SPIRITUAL</small></span>
+  </a>
+  <form class="searchbar" id="searchForm"><input id="searchInput" type="search" placeholder="Search gemstones, jewellery, SKU..." aria-label="Search products"><button aria-label="Search">⌕</button></form>
+  <div class="header-actions">
+    <button id="wishlistBtn"><span class="action-icon">♡</span><span>Wishlist</span><b class="count" id="wishlistCount">0</b></button>
+    <button id="cartBtn" aria-label="Open shopping cart"><span class="action-icon">🛒</span><span>Cart</span><b class="count" id="cartCount">0</b></button>
+  </div>
+</header>
+<nav class="main-nav" id="nav">
+  <a class="nav-link active" href="#home">Home</a>
+  <div class="nav-item"><a class="nav-link" href="#catalog">Gemstones <span>⌄</span></a><div class="mega-menu">
+    <div><h4>ZODIAC STONES (RASHI RATNA)</h4><a data-search="Blue Sapphire">Blue Sapphire (Neelam)</a><a data-search="Cat's Eye">Cat's Eye (Lehsunia)</a><a data-search="Emerald">Emerald (Panna)</a><a data-search="Hessonite">Hessonite (Gomed)</a><a data-search="Pearl">Pearl (Moti)</a><a data-search="Ruby">Ruby (Manik)</a><a data-search="Red Coral">Red Coral (Moonga)</a><a data-search="Yellow Sapphire">Yellow Sapphire (Pukhraj)</a></div>
+    <div><h4>POPULAR VEDIC GEMS</h4><a data-search="Amethyst">Amethyst</a><a data-search="Citrine">Citrine (Sunela)</a><a data-search="Garnet">Garnet</a><a data-search="Iolite">Iolite (Neeli)</a><a data-search="Navratna">Navratna</a><a data-search="Opal">Opal</a><a data-search="Peridot">Peridot</a><a data-search="Turquoise">Turquoise</a></div>
+    <div><h4>EXCLUSIVE GEMSTONES</h4><a data-search="Alexandrite">Alexandrite</a><a data-search="Burmese Ruby">Burmese Ruby</a><a data-search="Kashmir Blue Sapphire">Kashmir Blue Sapphire</a><a data-search="Paraiba Tourmaline">Paraiba Tourmaline</a><a data-search="Padparadscha Sapphire">Padparadscha Sapphire</a><a data-search="Tanzanite">Tanzanite</a></div>
+    <div><h4>SHOP BY COLLECTION</h4><a data-category="Rings">Gemstone Rings</a><a data-category="Pendants">Pendants</a><a data-category="Necklaces">Necklaces</a><a data-category="Earrings">Earrings</a><a data-category="Rudraksha">Rudraksha</a><a data-category="All">View All Products →</a></div>
+  </div></div>
+  <div class="nav-item"><a class="nav-link" href="#catalog">Jewellery <span>⌄</span></a><div class="small-menu"><a data-category="Rings">Rings</a><a data-category="Pendants">Pendants</a><a data-category="Bracelets">Bracelets</a><a data-category="Necklaces">Necklaces</a><a data-category="Earrings">Earrings</a><a data-category="Engagement Rings">Engagement Rings</a></div></div>
+  <div class="nav-item"><a class="nav-link" href="#catalog">By Metal <span>⌄</span></a><div class="small-menu"><a data-search="Gold">Gold Jewellery</a><a data-search="Silver">Silver Jewellery</a><a data-search="Panchdhatu">Panchdhatu Jewellery</a></div></div>
+  <div class="nav-item"><a class="nav-link" href="#categories">By Type <span>⌄</span></a><div class="small-menu"><a data-category="Loose Gemstones">Loose Gemstones</a><a data-category="Rudraksha">Rudraksha & Mala</a><a data-category="Gemstone Beads">Gemstone Beads</a><a data-category="Yantra & Spiritual">Yantra & Spiritual</a><a data-category="Upratna">Upratna</a></div></div>
+  <div class="nav-item"><a class="nav-link" href="#categories">Collections <span>⌄</span></a><div class="small-menu"><a data-search="Engagement Ring">Custom Engagement Rings</a><a data-search="Rakhi">Designer Rakhis</a><a data-search="Diamond Jewellery">Diamond Jewellery</a><a data-category="All">View All Collections</a></div></div>
+  <a class="nav-link" href="#navratna">Rashi Ratna</a><a class="nav-link" href="#categories">Birthstone</a><a class="nav-link" href="#catalog" data-category="Rudraksha">Rudraksha</a><a class="nav-link" href="#contact">Contact</a>
+</nav>
+<main id="home">
+  <section class="hero">
+    <div class="hero-backdrop" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">THE WORLD OF PRECIOUS STONES</p>
+      <h1>Find a gem that<br><em>speaks to you.</em></h1>
+      <p>Explore gemstone designs, jewellery and traditional spiritual collections. Product specifications and availability are confirmed before ordering.</p>
+      <div class="hero-buttons"><a class="btn gold-btn" href="#catalog">Explore Collection <span>→</span></a><a class="btn ghost-btn" href="#contact">Bulk Enquiry</a></div>
+      <div class="hero-trust"><span>✦ Order enquiries via WhatsApp</span><span>✦ Confirm actual stock and certification before payment</span></div>
+    </div>
+    <div class="hero-image-slot" id="heroImageSlot">
+      <img data-brand-banner src="assets/branding/banner.png" alt="BABA GEMS gemstone and jewellery collection" onerror="this.style.display='none'">
+      
+    </div>
+    <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+  </section>
+  <section class="service-strip">
+    <div><span class="service-icon">♢</span><span><b>Gemstone Collection</b><small>Browse the sample catalogue</small></span></div>
+    <div><span class="service-icon">♧</span><span><b>Confirm Product Details</b><small>Ask about origin and treatment</small></span></div>
+    <div><span class="service-icon">♙</span><span><b>Personal Assistance</b><small>Help with your selection</small></span></div>
+    <div><span class="service-icon">↗</span><span><b>Order Enquiries</b><small>Message us on WhatsApp</small></span></div>
+  </section>
+  <section class="navratna-section" id="navratna">
+    <div class="navratna-heading"><div><p class="eyebrow">TRADITIONAL COLLECTION</p><h2>Explore the Navratna</h2><p>Nine classic gemstones · choose your Ratti weight</p></div><a class="view-link" href="#catalog" data-search="Navratna">View collection →</a></div>
+    <div id="navratnaGrid" class="navratna-grid"></div>
+  </section>
+  <section class="shop-area" id="categories">
+    <aside class="category-sidebar"><div class="sidebar-title"><span>☷</span> Shop by Category</div><div class="sidebar-links">
+      <a class="category-side active" href="#catalog" data-category="All"><img class="category-thumb" src="assets/categories/all-products.png" alt="" loading="lazy"><span>All Products</span></a>
+      <a class="category-side" href="#catalog" data-category="Loose Gemstones"><img class="category-thumb" src="assets/categories/loose-gemstones.png" alt="" loading="lazy"><span>Loose Gemstones</span></a>
+      <a class="category-side" href="#catalog" data-category="Rings"><img class="category-thumb" src="assets/categories/rings.png" alt="" loading="lazy"><span>Rings</span></a>
+      <a class="category-side" href="#catalog" data-category="Pendants"><img class="category-thumb" src="assets/categories/pendants.png" alt="" loading="lazy"><span>Pendants</span></a>
+      <a class="category-side" href="#catalog" data-category="Bracelets"><img class="category-thumb" src="assets/categories/bracelets.png" alt="" loading="lazy"><span>Bracelets</span></a>
+      <a class="category-side" href="#catalog" data-category="Necklaces"><img class="category-thumb" src="assets/categories/necklaces.png" alt="" loading="lazy"><span>Necklaces</span></a>
+      <a class="category-side" href="#catalog" data-category="Earrings"><img class="category-thumb" src="assets/categories/earrings.png" alt="" loading="lazy"><span>Earrings</span></a>
+      <a class="category-side" href="#catalog" data-category="Rudraksha"><img class="category-thumb" src="assets/categories/rudraksha-mala.png" alt="" loading="lazy"><span>Rudraksha &amp; Mala</span></a>
+      <a class="category-side" href="#catalog" data-category="Gemstone Beads"><img class="category-thumb" src="assets/categories/gemstone-beads.png" alt="" loading="lazy"><span>Gemstone Beads</span></a>
+      <a class="category-side" href="#catalog" data-category="Upratna"><img class="category-thumb" src="assets/categories/upratna.png" alt="" loading="lazy"><span>Upratna</span></a>
+      <a class="category-side" href="#catalog" data-category="Yantra & Spiritual"><img class="category-thumb" src="assets/categories/yantra-spiritual.png" alt="" loading="lazy"><span>Yantra &amp; Spiritual</span></a>
+    </div></aside>
+    <div class="catalog-main" id="catalog">
+      <div class="catalog-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>Shop Gemstones & Jewellery</h2><small id="resultCount">Loading catalogue…</small></div>
+        <div class="catalog-filters"><input id="minPrice" type="number" min="0" placeholder="Min ₹" aria-label="Minimum price"><input id="maxPrice" type="number" min="0" placeholder="Max ₹" aria-label="Maximum price"><select id="sort" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="az">Name: A–Z</option></select></div>
+      </div>
+      <div class="category-chips" id="categoryChips"><button class="chip active" data-category="All">All</button><button class="chip" data-category="Loose Gemstones">Loose Gemstones</button><button class="chip" data-category="Rings">Rings</button><button class="chip" data-category="Pendants">Pendants</button><button class="chip" data-category="Necklaces">Necklaces</button><button class="chip" data-category="Earrings">Earrings</button><button class="chip" data-category="Rudraksha">Rudraksha</button><button class="chip" data-category="Upratna">Upratna</button></div>
+      <div class="catalog-notice" role="note"><strong>Before you order:</strong> catalogue images and prices are illustrative sample data, not live inventory. Confirm the actual stone, weight, treatment, certificate, availability and final price with us on WhatsApp.</div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="load-more-wrap"><button class="btn ghost-light" id="loadMore">Load more products ↓</button></div>
+    </div>
+  </section>
+  <section class="quality-bar">
+    <div><span>♢</span><b>Product Details<small>Confirm before order</small></b></div><div><span>◇</span><b>Transparent Pricing<small>Weight-based options</small></b></div><div><span>♧</span><b>Shipping Support<small>Confirm delivery options</small></b></div><div><span>♙</span><b>Expert Guidance<small>Personalised support</small></b></div><div><span>☆</span><b>Customer Care<small>Here to help</small></b></div>
+  </section>
+   <section class="ratti-guide" id="ratti-guide">
+    <div class="ratti-guide-copy"><p class="eyebrow">TRADITIONAL WEIGHT GUIDE</p><h2>Find a Ratti Range</h2><p>Some Vedic astrology practitioners use body weight as a starting point. There is no universal age-based chart, and this estimate is a tradition—not scientific or medical advice.</p></div>
+    <form class="ratti-calculator" id="rattiCalculator">
+      <label for="guideAge">Age (optional)</label><input id="guideAge" type="number" min="1" max="120" placeholder="Age in years">
+      <label for="guideWeight">Body weight (kg)</label><input id="guideWeight" type="number" min="1" max="300" step="0.1" placeholder="e.g. 60" required>
+      <button class="btn gold-btn" type="submit">Estimate Ratti Range</button>
+      <p id="rattiResult" class="ratti-result" aria-live="polite">Enter body weight to see an approximate traditional range.</p>
+      <small>Common modern rule of thumb: about 1 Ratti per 10–12 kg. Different practitioners disagree; confirm any choice with a trusted adult/adviser and verify stone quality and certification.</small>
+    </form>
+  </section>
+ 
+</main>
+<footer id="contact">
+  <div class="footer-main">
+    <div class="footer-brand-col"><div class="footer-logo-slot"><img data-brand-logo src="assets/branding/logo.png" alt="BABA GEMS emblem"></div><h3>BABA GEMS</h3><p>Gemstones · Jewellery · Spiritual Collections</p></div>
+    <div><h4>SHOP</h4><a href="#catalog">All Products</a><a href="#navratna">Navratna</a><a href="#categories" data-category="Rudraksha">Rudraksha & Mala</a><a href="#categories" data-category="Rings">Rings</a></div>
+    <div><h4>CUSTOMER CARE</h4><a href="#contact">Contact Us</a><a href="#contact">Shipping Information</a><a href="#contact">Returns & Exchanges</a><a href="#contact">FAQs</a></div>
+    <div class="contact-col"><h4>SUPPORT & CONTACT</h4><a data-contact-email href="mailto:info.babaastro@gmail.com">✉ info.babaastro@gmail.com</a><a data-contact-whatsapp href="https://wa.me/919519608505" target="_blank" rel="noopener">☏ +91 95196 08505</a><div class="social-row"><a data-contact-instagram href="#" target="_blank" rel="noopener">Instagram ↗</a><a data-contact-facebook href="#" target="_blank" rel="noopener">Facebook ↗</a><a data-contact-youtube href="#" target="_blank" rel="noopener">YouTube ↗</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> BABA GEMS. Sample catalogue; verify all listing details before sale.</span><span>Made for gemstone lovers ✧</span></div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div class="cart-backdrop" id="cartBackdrop"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+  <div class="drawer-head"><div><small>YOUR SELECTION</small><h2>Shopping Cart <span id="drawerCount">(0)</span></h2></div><button id="closeCart" class="icon-button" aria-label="Close cart">×</button></div>
+  <div class="drawer-shipping">Final product details, availability and prices will be confirmed by BABA GEMS.</div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="drawer-foot"><div class="subtotal-row"><span>Indicative subtotal</span><strong id="cartSubtotal">₹0</strong></div><small>Sample prices only. Final total confirmed over WhatsApp.</small><button id="checkoutBtn" class="btn gold-btn checkout-button">Enquire about order on WhatsApp →</button><button id="continueShopping" class="cart-continue">Continue shopping</button></div>
+</aside>
+<div class="modal-backdrop" id="modalBackdrop"><section class="modal" role="dialog" aria-modal="true"><button id="modalClose" class="icon-button modal-x">×</button><div id="modalContent"></div></section></div>
+<script src="site-config.js"></script><script src="products.js"></script><script src="app.js"></script>
+</body>
+</html>
