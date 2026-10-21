@@ -1,0 +1,20 @@
+{
+  "brand": "BABA GEMS",
+  "navratna_assets": 9,
+  "product_records": 500,
+  "product_png_assets": 509,
+  "category_png_assets": 11,
+  "brand_png_assets": 2,
+  "all_image_assets_png": true,
+  "account_option_removed": true,
+  "promo_panel_removed": true,
+  "whatsapp_enquiry_enabled": true,
+  "catalog_is_demo_data": true,
+  "all_svg_references_removed": true,
+  "syntax_checks_passed": true,
+  "cart_restored": true,
+  "add_to_cart_buttons": true,
+  "cart_drawer_and_quantity_controls": true,
+  "cart_checkout_whatsapp_enquiry": true,
+  "top_trustbar_social_whatsapp_links_removed": true
+}
